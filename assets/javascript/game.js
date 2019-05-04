@@ -36,7 +36,7 @@ $( document ).ready(function(){
   }
 
   function loser(){
-  alert ("Tough luck, maybe next time!");
+  alert ("Tough luck, you suck!");
     losses++;
     $('#losses').text(losses);
     reset()
