@@ -83,10 +83,10 @@ $( document ).ready(function(){
       $('#totalScore').text(playerTotal); 
         
             if (playerTotal == Random){
-            winning();
-          }
-          else if ( playerTotal > Random){
-            loser();
+              winning();
+            }
+            else if ( playerTotal > Random){
+              loser();
           }
     });   
   }); 
